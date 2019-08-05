@@ -1,0 +1,31 @@
+Finances App
+
+Functional Overview
+
+View a summarized list of all monthly expenses
+- date
+- merchant *o
+- item *o
+- price
+- category *o
+- payment method *o
+
+View monthly income statement
+- work wages +
+- stock sale +
+- stock purchase -
+- gambling -
+
+View a list of spendings by category
+- default categories: Food, Utilities, Gas, Uber/Lyft/Taxi, Flight
+- pie chart to show breakdown of monthly charges by default categories
+- pie chart for payment method breakdown
+
+Manually enter expense entries
+- spreadsheet format
+
+Load expense entries by file
+- parse credit card transaction summary to load expenses
+- csv if possible (?)
+- integrate with credit card APIs to retrieve file (?)
+
